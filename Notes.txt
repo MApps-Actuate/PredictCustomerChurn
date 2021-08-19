@@ -1,0 +1,3 @@
+Notes:
+# Add notebook_service user to hdfs group to have permission to write/store the pipeline model to the hdfs file system 
+usermod -a -G hdfs notebook_service
